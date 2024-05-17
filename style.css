@@ -148,3 +148,31 @@ a {
   color: #1F2937;
   text-align: end;
 }
+
+/* Section Four */
+.section-four {
+  background-color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.box {
+  background-color: #3882F6;
+  display: flex;
+  padding: 50px 150px;
+  gap: 150px;
+  border-radius: 8px;
+}
+
+.cta-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+#cta-button {
+  border: 2px solid white;
+  width: 150px;
+  font-size: 18px;
+}
