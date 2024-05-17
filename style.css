@@ -3,20 +3,22 @@ body {
   margin: 0;
 }
 
-.section-one {
-  background-color: #1F2937;
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-top: 16px;
-  padding-bottom: 100px;
-}
-
 .header {
+  background-color: #1F2937;
   color: #F9FAF8;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  padding: 16px 480px 100px;
+}
+
+.section-one {
+  background-color: #1F2937;
+  padding-top: 16px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-logo {
@@ -25,21 +27,20 @@ body {
 
 .hero-container {
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 }
 
 .hero-text-container {
+  display: flex;
+  flex-direction: column;
   width: 450px;
+  gap: 16px;
 }
 
 .hero-text {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 800;
-}
-
-.hero-info {
-  margin-bottom: 16px;
 }
 
 .hero-image {
@@ -60,6 +61,7 @@ body {
 button {
   border-radius: 8px;
   padding: 8px 32px;
+  width: 125px;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: bold;
